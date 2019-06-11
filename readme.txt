@@ -3,7 +3,7 @@
 Ce script permet de configurer en quelques instants un serveur DHCP et DNS et il est à lancer 
 avec la commande "sudo" afin de ne pas avoir de problèmes de droits.
 
-Tout d'abourd, mettre les deux fichiers sur la racine puis ouvrir le fichier res.ini et déclarer vos sous réseaux dedans de la façon suivante (exemple pour 2 sous réseaux) :
+Tout d'abourd, mettre les deux fichiers res.ini et dhcp_dns.py sur la racine puis ouvrir le fichier res.ini et déclarer vos sous réseaux dedans de la façon suivante (exemple pour 2 sous réseaux) :
 
 [reseau0]
 subnet: 10.0.0.0
