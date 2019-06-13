@@ -47,4 +47,5 @@ Avec ce mode les valeurs des variables sont mentionnées par arguments.
 -o : rentrer les options dns (ex : 8.8.8.8,1.1.1.1)
 -r : rentrer le nombre de sous réseau que vous avez configuré dans le fichier res.ini si vous mettez pas le bon des sous réseau ne 
 seront pas configuré !
+--interfaces : rentrer vos interfaces d'écoute du serveur dhcp (ex : "ens33 ens34")
 ```
