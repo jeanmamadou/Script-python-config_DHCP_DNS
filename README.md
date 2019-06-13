@@ -37,6 +37,7 @@ taper dans le terminal la valeur souhaitée et faire "entrer"
 Pour lancer ce mode taper `sudo dhcp_dns.py -d <domain> -a <addr ip> -n <server name> -m <subnet mask> -o <option dns> -r <nb sous res> --interfaces=<"interface1 interface2 or_more">`.
 Avec ce mode les valeurs des variables sont mentionnées par arguments.
 #### Paramètres
+```
 -h : aide 
 -i : lancer le mode interactif
 -d : rentrer votre nom de domaine dns (ex : mondomaine.net)
@@ -46,4 +47,4 @@ Avec ce mode les valeurs des variables sont mentionnées par arguments.
 -o : rentrer les options dns (ex : 8.8.8.8,1.1.1.1)
 -r : rentrer le nombre de sous réseau que vous avez configuré dans le fichier res.ini si vous mettez pas le bon des sous réseau ne 
 seront pas configuré !
- 
+```
