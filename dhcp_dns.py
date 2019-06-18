@@ -102,11 +102,11 @@ def main(argv):
    try:
       opts, args = getopt.getopt(argv,"hid:a:n:m:o:r:f:",["domain=","addr=","name=","mask=","optdns=","reseau=","interfaces="])
    except getopt.GetoptError:
-      print ('dhcp_dns.py -i i pour le mode interactif ou dhcp_dns.py -d <domain> -a <addr ip> -n <server name> -m <subnet mask> -o <option dns> -r <nb sous res> --interfaces="interface1 interface2 or_more"')
+      print ('dhcp_dns.py -i pour le mode interactif ou dhcp_dns.py -d <domain> -a <addr ip> -n <server name> -m <subnet mask> -o <option dns> -r <nb sous res> --interfaces="interface1 interface2 or_more"')
       sys.exit(2)
    for opt, arg in opts:
       if opt == '-h':
-         print ('dhcp_dns.py -i i mode interactif ou dhcp_dns.py -d <domain> -a <addr ip> -n <server name> -m <subnet mask> -o <option dns> -r <nb sous res> --interfaces="interface1 interface2 or_more"')
+         print ('dhcp_dns.py -i mode interactif ou dhcp_dns.py -d <domain> -a <addr ip> -n <server name> -m <subnet mask> -o <option dns> -r <nb sous res> --interfaces="interface1 interface2 or_more"')
          sys.exit()
       elif opt in ("-d", "--domain"):
          domain = arg
